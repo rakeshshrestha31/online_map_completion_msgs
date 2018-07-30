@@ -1,0 +1,8 @@
+# builds
+build*
+cmake-build*
+
+# tmp
+*.swp
+*.swo
+*.swn
