@@ -1,5 +1,9 @@
 sensor_msgs/Image multi_channel_occupancy_grid
+sensor_msgs/Image ground_truth
 sensor_msgs/RegionOfInterest[]  frontier_rois
 geometry_msgs/PoseArray[] frontier_clusters
 ---
 std_msgs/UInt64[] info_gains
+std_msgs/UInt64[] info_gains_gt
+sensor_msgs/Image prediction
+sensor_msgs/Image prediction_gt
