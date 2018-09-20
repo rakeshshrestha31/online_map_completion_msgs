@@ -7,3 +7,4 @@ std_msgs/UInt64[] info_gains
 std_msgs/UInt64[] info_gains_gt
 sensor_msgs/Image prediction
 sensor_msgs/Image prediction_gt
+sensor_msgs/Image[] predicted_frontiers
